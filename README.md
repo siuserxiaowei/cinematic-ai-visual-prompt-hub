@@ -1,99 +1,88 @@
+<div align="center">
+
 # 电影级视觉提示词学习站
 
 把电影课里的镜头语言，翻译成 AI 图片和 AI 视频都能用的创作语言。
 
-[在线访问](https://siuserxiaowei.github.io/cinematic-ai-visual-prompt-hub/) · [资料审计](docs/research/source-audit.md)
+[在线访问](https://siuserxiaowei.github.io/cinematic-ai-visual-prompt-hub/) · [学习地图](#learning-map) · [快速开始](#quick-start)
+
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=github)
+![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=111111)
+![Vite](https://img.shields.io/badge/Vite-7-646cff?logo=vite&logoColor=ffffff)
+![AI Video](https://img.shields.io/badge/AI%20Video-prompt%20hub-f472b6)
+![Cinematography](https://img.shields.io/badge/Cinematography-learning%20cards-facc15)
+
+</div>
 
 <img src="assets/cinematic-research-wall.png" alt="电影级视觉提示词学习站界面预览" />
 
-## 这是什么
+## Why
 
-这是一个面向 AI 视觉创作者的学习型资料库。它不是简单堆提示词，而是把“为什么这个镜头有电影感”拆成可以学习、搜索和复用的知识卡：
+AI 视频不是把形容词堆得越多越电影感。
 
-- 景别、角度、机位、焦段和构图怎么影响画面叙事。
-- 主光、辅光、轮廓光、低调光、实景光怎么写进提示词。
-- 推、拉、摇、移、跟、环绕、变焦等运镜词该怎么用。
-- 分镜脚本、关键帧、首尾帧、时间线提示词如何组织。
-- Runway、Veo、Kling、Wan、Luma、Sora 等模型文档里真正值得吸收的提示词结构。
+真正有用的是：你知道这个镜头该用什么景别、相机怎么动、光从哪里来、主体做什么、情绪怎么被画面放大。这个站就是把这些影视基础，整理成可以直接学习和改写的提示词卡片。
 
-最初的灵感来自 RunningHub 里的电影级视觉提示词库形态，但本站重新做了公开资料检索、结构整理和原创化改写，不复制对方内容资产。
+## Highlights
 
-## 适合谁
+| Feature | What it helps with |
+| --- | --- |
+| 59 张术语卡片 | 快速理解景别、构图、布光、运镜、影调、分镜和 AI 生成参数 |
+| 9 个学习模块 | 从镜头基础到 AI 视频提示词系统，按创作路径组织 |
+| 87 个资料来源 | 汇总官方文档、影视教学、GitHub 项目、中文社区和视频教程 |
+| 搜索与筛选 | 按关键词、模块、平台和优先级找到可用参考 |
+| 可复制提示词骨架 | 把镜头设计拆成主体、环境、镜头、光线、动作和节奏 |
 
-- 想让 AI 图片、AI 视频少一点“随机好看”，多一点镜头设计的人。
-- 做短剧、广告片、产品视频、分镜脚本、视觉参考图的创作者。
-- 想补影视基础，但不想一上来啃厚教材的新手。
-- 想把公开资料沉淀成可筛选学习站的 AI 工具玩家。
+## Learning Map
 
-## 里面有什么
+| Module | Learn to control |
+| --- | --- |
+| 构图拍摄 | 景别、角度、机位、焦段、画面框架 |
+| 电影级构图 | 三分法、引导线、对称、留白、空间层次 |
+| 电影感布光 | 主光、辅光、轮廓光、实景光、低调光 |
+| 相机与影调 | 镜头质感、胶片颗粒、动态范围、色彩科学 |
+| 镜头语言 AI | 推、拉、摇、移、跟、升降、环绕、变焦 |
+| 微表情控制 | 眼神、呼吸、眨眼、嘴角、克制情绪 |
+| 分镜脚本 | 镜头表、关键帧、首尾帧、多镜头提示词 |
+| 分镜逻辑 | 轴线、视线匹配、转场、蒙太奇、空间连续性 |
+| AI 镜头构建 | 图生视频、负面提示、时间线、模型差异 |
 
-| 内容 | 当前规模 |
-| --- | ---: |
-| 学习模块 | 9 个 |
-| 术语和提示词卡片 | 59 张 |
-| 公开资料来源 | 87 个 |
-| 优先阅读来源 | 18 个 |
+## Use Cases
 
-九个模块分别是：
+- 给 Midjourney、GPT Image、即梦、可灵、Runway、Veo、Wan、Luma 写更具体的视觉提示词。
+- 做短剧、广告片、产品视频、角色设定、分镜脚本和视觉参考图。
+- 把“电影感”“高级感”“有氛围”这类空话，拆成能执行的镜头和画面决策。
+- 给自己的 AI 视频工作流建立一套可复用的镜头词库。
 
-1. 构图拍摄
-2. 电影级构图
-3. 电影感布光
-4. 相机与影调
-5. 镜头语言 AI
-6. 微表情控制
-7. 分镜脚本
-8. 分镜逻辑
-9. AI 镜头构建
+## How To Use
 
-## 怎么用
+1. 打开 [在线站点](https://siuserxiaowei.github.io/cinematic-ai-visual-prompt-hub/)。
+2. 从一个模块开始，比如“镜头语言 AI”或“电影感布光”。
+3. 搜索你想控制的效果，比如 `dolly in`、`低调光`、`首尾帧`、`眼神微动`。
+4. 打开卡片，复制提示词骨架。
+5. 替换主体、场景、动作和情绪，放进你的图片或视频模型里测试。
 
-打开在线站点后，可以按三种方式学习：
-
-- 按模块浏览：先从构图、布光、运镜这些基础语言入手。
-- 按关键词搜索：比如 `dolly in`、`低调光`、`首尾帧`、`眼神微动`。
-- 点开卡片复制提示词骨架：把主体、环境、镜头、光线、动作、节奏换成自己的项目内容。
-
-建议学习路径：
-
-1. 先看“构图拍摄”和“电影级构图”，理解画面怎么组织注意力。
-2. 再看“电影感布光”和“相机与影调”，建立质感词库。
-3. 然后看“镜头语言 AI”，把静态画面变成可控运动。
-4. 最后看“分镜脚本”和“AI 镜头构建”，把单条提示词升级成一组镜头。
-
-## 资料来源
-
-资料覆盖官方文档、影视教学、GitHub 仓库、中文社区、视频平台和公开社交内容。比较重要的来源包括：
-
-- Runway、Google Veo、Kling、Wan、Luma、Adobe Firefly、OpenAI Developers。
-- StudioBinder、Adobe、Boords、UCI film glossary、ARRI、Kodak、Blackmagic Design。
-- Zhihu、WaytoAGI、少数派、人人都是产品经理、博客园、CSDN、数英网、掘金。
-- B 站、抖音网页结果、YouTube、X/Twitter 公开片段。
-- Wan2.1、HunyuanVideo prompt handbook、DirectorsConsole、awesome-ai-video-prompts 等 GitHub 资料。
-
-动态社交平台的内容会变化，所以抖音、小红书、X/Twitter 只作为趋势线索，不当作权威定义来源。更完整的检索说明见 [Source Audit](docs/research/source-audit.md)。
-
-## 内容边界
-
-本站只沉淀原创摘要、术语解释、提示词骨架和来源索引。不搬运受版权保护的全文、截图、视频字幕，也不复制大段提示词清单。
-
-## 本地运行
+## Quick Start
 
 ```bash
 npm install
-npm run validate:data
-npm run build
-npm run smoke
 npm run dev
 ```
 
-按终端输出的 Vite 地址访问。默认是：
+默认访问：
 
 ```text
 http://127.0.0.1:5173/cinematic-ai-visual-prompt-hub/
 ```
 
-## 项目结构
+构建和校验：
+
+```bash
+npm run validate:data
+npm run build
+npm run smoke
+```
+
+## Project Structure
 
 ```text
 src/data/sources.js        资料来源索引
@@ -105,9 +94,6 @@ tools/smoke-check.mjs      桌面和移动端冒烟测试
 docs/research/             检索覆盖和限制说明
 ```
 
-## 维护原则
+## Research Notes
 
-- 新增来源时，先判断它是官方文档、影视教学、案例教程、社交趋势还是二手整理。
-- 新增术语时，至少关联一个可信来源，避免只凭感觉写定义。
-- 不追求“提示词越长越专业”，优先让镜头意图、主体动作和画面约束说清楚。
-- 模型能力会变，涉及具体模型效果的结论需要标注时间和来源。
+资料覆盖 Runway、Veo、Kling、Wan、Luma、StudioBinder、Boords、ARRI、Kodak、Zhihu、B 站、YouTube、GitHub 等公开来源。社交平台内容变化很快，所以这里只把它们当作趋势线索；核心定义优先参考官方文档和影视教学资料。完整记录见 [source audit](docs/research/source-audit.md)。
